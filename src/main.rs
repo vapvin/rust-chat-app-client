@@ -48,5 +48,5 @@ fn main() {
         let msg = buff.trim().to_string();
         if msg == ":quit" || tx.send(msg).is_err(){break}
     }
-    println!("bye bye!");
+    println!("END");
 }
